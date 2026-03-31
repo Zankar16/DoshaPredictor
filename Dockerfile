@@ -39,4 +39,4 @@ ENV NODE_ENV=production
 EXPOSE 5000
 
 # Script to start the server (Note: in production, Express could serve the static frontend files)
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
